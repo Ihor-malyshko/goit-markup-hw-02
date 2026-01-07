@@ -7,10 +7,10 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  line-height: 24px;
+  letter-spacing: 0.02em;
 
-  letter-spacing: 2%;
   color: #434455;
+  background-color: #ffffff;
 }
 
 h1,
@@ -20,28 +20,28 @@ h4,
 h5,
 h6 {
   color: #2e2f42;
-  margin: 0;
-  padding: 0;
+  /* margin: 0; */
+  /* padding: 0; */
 }
 
 p {
-  margin: 0;
-  padding: 0;
+  /* margin: 0; */
+  /* padding: 0; */
 }
 
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 21px;
-  letter-spacing: 3%;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  text-decoration: none;
-  color: #2e2f42;
-}
-.logo-blue {
   color: #4d5ae5;
+  text-decoration: none;
+}
+.logo-second {
+  color: #2e2f42;
 }
 
 /* header */
@@ -51,26 +51,51 @@ p {
   color: #2e2f42;
 }
 
-.navbar-list a {
+.navbar-list-link {
   text-decoration: none;
   color: #2e2f42;
 }
+.navbar-list-link:hover,
+.navbar-list-link:focus {
+  color: #404bbf;
+}
 
-.contacts a {
+.contacts {
+  font-style: normal;
+}
+.contacts-list-link {
   text-decoration: none;
   color: #2e2f42;
+}
+.contacts-list-link:hover,
+.contacts-list-link:focus {
+  color: #404bbf;
 }
 
 /* hero */
 
-.hero-title {
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 60px;
+.section-hero {
+  background-color: #2e2f42;
 }
 
-.hero-button {
+.section-hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+
+  color: #ffffff;
+}
+
+.section-hero-button {
+  background-color: #4d5ae5;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: #ffffff;
   cursor: pointer;
+}
+.section-hero-button:hover,
+.section-hero-button:focus {
+  background-color: #404bbf;
 }
 
 /* section1 */
@@ -78,7 +103,6 @@ p {
 .section1-item-title {
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
 }
 
 /* section2 */
@@ -86,7 +110,8 @@ p {
 .section2-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 1.11;
+  text-transform: capitalize;
 }
 
 .section2-item-title {
@@ -94,13 +119,21 @@ p {
   font-size: 20px;
   line-height: 24px;
 }
+.section2-item-paragraph {
+}
 
 /* section4 */
+
+.section4 {
+  background-color: #f4f4fd;
+}
 
 .section4-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
 }
 
 .section4-item-title {
