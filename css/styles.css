@@ -36,8 +36,11 @@ p {
   color: #4d5ae5;
   text-decoration: none;
 }
-.logo-second {
+.logo-header {
   color: #2e2f42;
+}
+.logo-footer {
+  color: #f4f4fd;
 }
 
 /* header */
