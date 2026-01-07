@@ -58,11 +58,13 @@ p {
 
 .contacts {
   font-style: normal;
+  color: #434455;
 }
 .contacts-list-link {
   text-decoration: none;
-  color: #2e2f42;
+  color: #434455;
 }
+
 .contacts-list-link:hover,
 .contacts-list-link:focus {
   color: #404bbf;
@@ -78,8 +80,10 @@ p {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
+  letter-spacing: 0.02em;
 
   color: #ffffff;
+  text-align: center;
 }
 
 .section-hero-button {
@@ -103,26 +107,33 @@ p {
 
 /* section2 */
 
+.section2 {
+  background-color: #f4f4fd;
+}
+
 .section2-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
   text-transform: capitalize;
+}
+
+.section2-item {
+  background-color: #ffffff;
 }
 
 .section2-item-title {
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .section2-item-paragraph {
 }
 
 /* section4 */
-
-.section4 {
-  background-color: #f4f4fd;
-}
 
 .section4-title {
   font-weight: 700;
