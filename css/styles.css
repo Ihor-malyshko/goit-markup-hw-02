@@ -107,7 +107,7 @@ p {
 
 /* section1 */
 
-.section1-item-title {
+.section1-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -133,13 +133,13 @@ p {
   background-color: #ffffff;
 }
 
-.section2-item-title {
+.section2-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-.section2-item-paragraph {
+.section2-paragraph {
 }
 
 /* section4 */
@@ -153,7 +153,7 @@ p {
   text-transform: capitalize;
 }
 
-.section4-item-title {
+.section4-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
