@@ -136,7 +136,7 @@ p {
   background-color: #ffffff;
 }
 
-.section-two-title {
+.section-two-item-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -156,7 +156,7 @@ p {
   text-transform: capitalize;
 }
 
-.section-four-title {
+.section-four-item-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
