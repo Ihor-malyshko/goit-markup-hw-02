@@ -107,20 +107,23 @@ p {
 
 /* section1 */
 
-.section1-title {
+.section-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
 
-/* section2 */
+.section-paragraph {
+}
 
-.section2 {
+/* section-two */
+
+.section-two {
   background-color: #f4f4fd;
 }
 
-.section2-title {
+.section-two-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -129,22 +132,22 @@ p {
   text-transform: capitalize;
 }
 
-.section2-item {
+.section-two-item {
   background-color: #ffffff;
 }
 
-.section2-title {
+.section-two-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-.section2-paragraph {
+.section-two-paragraph {
 }
 
-/* section4 */
+/* section-four */
 
-.section4-title {
+.section-four-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -153,11 +156,14 @@ p {
   text-transform: capitalize;
 }
 
-.section4-title {
+.section-four-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+}
+
+.section-four-paragraph {
 }
 
 /* footer */
